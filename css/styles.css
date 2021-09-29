@@ -61,7 +61,7 @@ body {
   border-bottom: 1px solid #ECECEC;
   padding-top: 32px;
   padding-bottom: 32px;
-
+  margin-bottom: 94px;
 }
 .header-container {
   display: flex;
@@ -193,6 +193,7 @@ body {
 .features-list
 {
   display: flex;
+    flex-basis: calc((100% / 4 -30px));
 }
 
 .features-item:not(:last-child){
@@ -230,6 +231,7 @@ body {
 .profile-list{
   display: flex;
   flex-wrap: wrap;
+  flex-basis: calc((100% / 4 -30px));
   margin-left: -30px;
   margin-top: -50px;
 }
@@ -336,3 +338,48 @@ margin-top: 50px;
 .footer-adress-links:hover {
   color: var(--logo-first-text-color);
 }
+
+/* ==============Portfolio.html============== */
+
+/* =========Project navigation==========*/
+
+.project-nav{
+  display: flex;
+  justify-content: center;
+}
+
+.project-nav .item{
+  margin-right: 8px;
+}
+
+.project-nav .item:last-child {
+  margin-right: 0px;
+} 
+
+.btn-item{
+  font-family: inherit;
+  padding: 6px 22px;
+  border: none;
+  background-color: #F5F4FA;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 50px;
+}
+
+/*------------Gallery--------- */
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc((100% / 4 - 30px));
+  margin: -30px;
+}
+.gallery-item{
+  margin: 30px;
+}
+
+  
+

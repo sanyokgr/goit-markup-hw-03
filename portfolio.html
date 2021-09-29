@@ -53,17 +53,25 @@
     <main>
       <section class="project">
         <h1 hidden>Наши работы</h1>
-        <ul class="project-list list">
-          <li><button class="btn-item btn" type="button">Все</button></li>
-          <li><button class="btn-item btn" type="button">Веб-сайты</button></li>
-          <li>
-            <button class="btn-item btn" type="button">Приложения</button>
+        <ul class="project-nav list">
+          <li class="item">
+            <button class="btn-item" type="button">Все</button>
           </li>
-          <li><button class="btn-item btn" type="button">Дизайн</button></li>
-          <li><button class="btn-item btn" type="button">Маркетинг</button></li>
+          <li class="item">
+            <button class="btn-item" type="button">Веб-сайты</button>
+          </li>
+          <li class="item">
+            <button class="btn-item" type="button">Приложения</button>
+          </li>
+          <li class="item">
+            <button class="btn-item" type="button">Дизайн</button>
+          </li>
+          <li class="item">
+            <button class="btn-item" type="button">Маркетинг</button>
+          </li>
         </ul>
-        <ul class="list">
-          <li>
+        <ul class="list gallery">
+          <li class="gallery-item">
             <img
               src="./images/web-site.jpg"
               alt="Три разработчика делают
@@ -73,7 +81,7 @@
             <p class="job-interpretation">Технокряк</p>
             <p class="job-title">Веб-сайт</p>
           </li>
-          <li>
+          <li class="gallery-item">
             <img
               src="./images/design.jpg"
               alt="Два баскетболиста с мячом"
@@ -84,8 +92,7 @@
             </p>
             <p class="job-title">Дизайн</p>
           </li>
-
-          <li>
+          <li class="gallery-item">
             <img
               src="./images/aplication.jpg"
               alt="Постер ресторана"
@@ -96,15 +103,14 @@
             </p>
             <p class="job-title">Приложение</p>
           </li>
-          <li>
+          <li class="gallery-item">
             <img src="./images/marketing.jpg" alt="Наушники" width="370" />
             <p class="job-interpretation">
               Проект <span lang="en">Prime</span>
             </p>
             <p class="job-title">Маркетинг</p>
           </li>
-
-          <li>
+          <li class="gallery-item">
             <img
               src="./images/application2.jpg"
               alt="Две коробки"
@@ -115,8 +121,7 @@
             </p>
             <p class="job-title">Приложение</p>
           </li>
-
-          <li>
+          <li class="gallery-item">
             <img
               src="./images/web-site2.jpg"
               alt="Постер о дизайне"
@@ -127,20 +132,19 @@
             </p>
             <p class="job-title">Веб-сайт</p>
           </li>
-          <li>
+          <li class="gallery-item">
             <img src="./images/design2.jpg" alt="Открытый журнал" width="370" />
             <p class="job-interpretation">
               Издание <span lang="en">Limited Edition</span>
             </p>
             <p class="job-title">Дизайн</p>
           </li>
-
-          <li>
+          <li class="gallery-item">
             <img src="./images/marketing2.jpg" alt="Этикетка" width="370" />
             <p class="job-interpretation">Проект <span lang="en">LAB</span></p>
             <p class="job-title">Маркетинг</p>
           </li>
-          <li>
+          <li class="gallery-item">
             <img
               src="./images/application3.jpg"
               alt="Руки печатающие на
@@ -157,32 +161,38 @@
     </main>
 
     <footer class="footer">
-      <a href="" lang="en" class="footer-logo logo-prop link"
-        ><span class="logo-first-word">Web</span>Studio</a
-      >
-      <address class="address">
-        <ul class="address-list list">
-          <li class="footer-city-item">
-            <a href="" class="footer-adress-links footer-city-color link"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li class="footer-address-item">
-            <a
-              href="mailto:info@example.com"
-              class="footer-adress-links footer-contacts-color link"
-              >info@example.com</a
-            >
-          </li>
-          <li class="footer-adress-links footer-address-item">
-            <a
-              href="tel:+380991111111"
-              class="footer-contacts-color footer-adress-links link"
-              >+38 099 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <div class="div-logo-ft">
+          <a href="" lang="en" class="footer-logo logo-prop link"
+            ><span class="logo-first-word">Web</span>Studio</a
+          >
+        </div>
+        <div class="div-address-ft">
+          <address class="address">
+            <ul class="address-list list">
+              <li class="footer-city-item">
+                <a href="" class="footer-adress-links footer-city-color link"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="footer-address-item">
+                <a
+                  href="mailto:info@example.com"
+                  class="footer-adress-links footer-contacts-color link"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="footer-adress-links footer-address-item">
+                <a
+                  href="tel:+380991111111"
+                  class="footer-contacts-color footer-adress-links link"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
