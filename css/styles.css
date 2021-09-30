@@ -6,8 +6,7 @@
   --primary-text-color: #757575;
   --logo-first-text-color: #2196f3;
   --logo-second-text-color: #000000;
-  --footer-hero-background-color: #2f303a;
-  
+  --footer-hero-background-color: #2f303a;  
 }
 
 p,
@@ -392,9 +391,7 @@ margin-top: 50px;
 }
 
 /*------------Gallery--------- */
-/* .gallery-container{
-  margin-bottom: 94px;
-} */
+
 .gallery{
   display: flex;
   flex-wrap: wrap;
