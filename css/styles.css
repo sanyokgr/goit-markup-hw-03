@@ -49,6 +49,7 @@ body {
 }
 
 /* Header */
+
 .logo-prop {
   font-family: Raleway;
   font-weight: bold;
@@ -131,12 +132,10 @@ body {
 
 /* Секция hero */
 
-
 .hero-section{
   background-color: var(--footer-hero-background-color);
   padding: 200px 0;
-  text-align: center;
- 
+  text-align: center; 
 }   
 
 .hero-header {
