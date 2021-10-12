@@ -114,6 +114,7 @@ body {
 }
 
 .header-contacts-link {
+  
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -128,6 +129,12 @@ body {
 .header-contacts-link:focus,
 .header-contacts-link:hover {
   color: var(--logo-first-text-color);
+}
+
+.top-right-contacts{
+  display: flex;
+  margin-left: auto
+
 }
 
 /* Секция hero */
